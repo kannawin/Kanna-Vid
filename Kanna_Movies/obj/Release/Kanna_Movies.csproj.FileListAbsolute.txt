@@ -1,0 +1,17 @@
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\bin\Release\Kanna_Movies.exe.config
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\bin\Release\Kanna_Movies.exe.manifest
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\bin\Release\Kanna_Movies.application
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\bin\Release\Kanna_Movies.exe
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\bin\Release\Kanna_Movies.pdb
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\bin\Release\Movie_Info.dll
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\bin\Release\RestSharp.dll
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\bin\Release\Movie_Info.pdb
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\bin\Release\RestSharp.xml
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\obj\Release\Kanna_Movies.csprojResolveAssemblyReference.cache
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\obj\Release\Kanna_Movies.Kanna_Vod.resources
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\obj\Release\Kanna_Movies.Properties.Resources.resources
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\obj\Release\Kanna_Movies.csproj.GenerateResource.Cache
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\obj\Release\Kanna_Movies.exe.manifest
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\obj\Release\Kanna_Movies.application
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\obj\Release\Kanna_Movies.exe
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Kanna_Movies\obj\Release\Kanna_Movies.pdb

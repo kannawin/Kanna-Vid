@@ -1,0 +1,7 @@
+C:\Users\scott\Documents\Visual Studio 2013\Projects\Kanna_Movies\Movie_Info\bin\Debug\Movie_Info.dll
+C:\Users\scott\Documents\Visual Studio 2013\Projects\Kanna_Movies\Movie_Info\bin\Debug\Movie_Info.pdb
+C:\Users\scott\Documents\Visual Studio 2013\Projects\Kanna_Movies\Movie_Info\bin\Debug\RestSharp.dll
+C:\Users\scott\Documents\Visual Studio 2013\Projects\Kanna_Movies\Movie_Info\bin\Debug\RestSharp.xml
+C:\Users\scott\Documents\Visual Studio 2013\Projects\Kanna_Movies\Movie_Info\obj\Debug\Movie_Info.dll
+C:\Users\scott\Documents\Visual Studio 2013\Projects\Kanna_Movies\Movie_Info\obj\Debug\Movie_Info.pdb
+C:\Users\scott\Documents\Visual Studio 2013\Projects\Kanna_Movies\Movie_Info\obj\Debug\Movie_Info.csprojResolveAssemblyReference.cache

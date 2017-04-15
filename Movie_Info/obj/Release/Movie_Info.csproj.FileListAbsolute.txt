@@ -1,0 +1,6 @@
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Movie_Info\bin\Release\Movie_Info.dll
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Movie_Info\bin\Release\Movie_Info.pdb
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Movie_Info\bin\Release\RestSharp.dll
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Movie_Info\bin\Release\RestSharp.xml
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Movie_Info\obj\Release\Movie_Info.dll
+C:\Users\scott\documents\visual studio 2013\Projects\Kanna_Movies\Movie_Info\obj\Release\Movie_Info.pdb
