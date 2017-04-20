@@ -10,14 +10,23 @@ using RestSharp.Serializers;
 using System.IO;
 using Microsoft.CSharp.RuntimeBinder;
 
+/*
+    This class is used as an API to get movie info directly from tmbd and save all the data (temporarily) in the movie object
+    
+    There is a known bug where if loaded within VS2017, System.Web.Helpers is not a thing and will not parse JSON
+    @author Scott Kannawin
 
+*/
 namespace Movie_Info
 {
     public class Info
     {
         private const string api_key = "97e4335bd73002b6731fc902f3748e96";
         private const string poster_first = "https://Image.tmdb.org/t/p/w300_and_h450_bestv2";
-
+        
+        //will search for movie info given the incomplete movie object and its title
+        //for now the input can only be of the form <Movie title>(correct year) or else the search will get funny
+        //the year must be included as well
         public movObj movInfo(String title, movObj m)
         {
             string prepare = "";
@@ -66,6 +75,8 @@ namespace Movie_Info
             //Console.WriteLine(Convert.ToString(returned.overview));
             return m;
         }
+        
+        //sends a request to the tmbd rest api to get whatever json is requested, returns custom JSON object
         private dynamic restRequest(string url)
         {
             dynamic returned;
@@ -77,7 +88,8 @@ namespace Movie_Info
             returned = Json.Decode(response.Content);
             return returned;
         }
-
+        
+        //interprets the json data gathered on a movie
         private movObj movDataIn(dynamic b, dynamic c, movObj m)
         {
             //general movie data
@@ -117,7 +129,9 @@ namespace Movie_Info
         }
 
     }
-
+    
+    //The actual movObj object where everything is saved, it is created using the absolute path of the movie itself and the name given to it
+    //the name is through the file name, which is parsed on the raspberry pi's end
     public class movObj
     {
 
