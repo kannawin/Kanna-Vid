@@ -110,7 +110,7 @@
             this.movList.Name = "movList";
             this.movList.Size = new System.Drawing.Size(652, 1696);
             this.movList.TabIndex = 3;
-            this.movList.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.movList.SelectedIndexChanged += new System.EventHandler(this.movList_changeIndex);
             // 
             // watch
             // 
@@ -122,7 +122,7 @@
             this.watch.TabIndex = 5;
             this.watch.Text = "Watch";
             this.watch.UseVisualStyleBackColor = true;
-            this.watch.Click += new System.EventHandler(this.button1_Click);
+            this.watch.Click += new System.EventHandler(this.start);
             // 
             // play
             // 
@@ -133,7 +133,7 @@
             this.play.TabIndex = 6;
             this.play.Text = "Pause/Play";
             this.play.UseVisualStyleBackColor = true;
-            this.play.Click += new System.EventHandler(this.button2_Click);
+            this.play.Click += new System.EventHandler(this.pause);
             // 
             // stop
             // 
@@ -144,7 +144,7 @@
             this.stop.TabIndex = 7;
             this.stop.Text = "Stop";
             this.stop.UseVisualStyleBackColor = true;
-            this.stop.Click += new System.EventHandler(this.button3_Click);
+            this.stop.Click += new System.EventHandler(this.stop_movie);
             // 
             // tableLayoutPanel1
             // 
@@ -218,7 +218,7 @@
             this.voldown.TabIndex = 11;
             this.voldown.Text = "Vol -";
             this.voldown.UseVisualStyleBackColor = true;
-            this.voldown.Click += new System.EventHandler(this.button4_Click);
+            this.voldown.Click += new System.EventHandler(this.vol_down);
             // 
             // skip10mfor
             // 
@@ -284,7 +284,7 @@
             this.fastfow.TabIndex = 17;
             this.fastfow.Text = "Fast Forward";
             this.fastfow.UseVisualStyleBackColor = true;
-            this.fastfow.Click += new System.EventHandler(this.button10_Click);
+            this.fastfow.Click += new System.EventHandler(this.thirty_forward);
             // 
             // rewind
             // 
@@ -295,7 +295,7 @@
             this.rewind.TabIndex = 18;
             this.rewind.Text = "Rewind";
             this.rewind.UseVisualStyleBackColor = true;
-            this.rewind.Click += new System.EventHandler(this.button11_Click);
+            this.rewind.Click += new System.EventHandler(this.thirty_back);
             // 
             // label1
             // 
@@ -317,7 +317,7 @@
             this.button2.TabIndex = 21;
             this.button2.Text = "Name";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.button2.Click += new System.EventHandler(this.name_format);
             // 
             // button3
             // 
@@ -328,7 +328,7 @@
             this.button3.TabIndex = 22;
             this.button3.Text = "Year";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            this.button3.Click += new System.EventHandler(this.name_format2);
             // 
             // label2
             // 
@@ -350,7 +350,7 @@
             this.button4.TabIndex = 25;
             this.button4.Text = "Random Movie";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            this.button4.Click += new System.EventHandler(this.random);
             // 
             // pictureBox1
             // 
