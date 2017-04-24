@@ -1,0 +1,6 @@
+<?php
+
+exec('pkill omxplayer');
+
+?>
+
