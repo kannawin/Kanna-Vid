@@ -20,3 +20,15 @@ As of now it can:
 - Full movie control on the client side
 - Optimized for touch screens 
 - Gets full information of a movie before you watch
+
+
+To run:
+1. Put the pi files folder into /var/www/html of the raspberry pi (requires apache2 webserver installed previously)
+	- change the permissions of all the files to allow any use to execute and read
+	- run 'mkfifo /tmp/cmd' on the pi, this creates a fifo file to pipe usable commands for the video
+	- go into the list.php file and change the directory of all of your movies
+		- all movies must be each individually directories with the movie file inside titles <movie>(year)
+
+2. Change the IP address in the Form1.cs file in the Kanna_Movies directory to the IP address of your PI
+3. Run the Csharp solution and either export it to make an installable .exe or just compile, the only external library needed is restsharp, if your compiler does not have it. It uses all standard .net libraries
+4. Plug the PI into a TV and enjoy the show.
